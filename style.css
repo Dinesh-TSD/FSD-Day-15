@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#calculator{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 12px rgb(229, 229, 230),
+                       2px 2px 12px rgb(255, 211, 211);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+}
+#result{
+    grid-column: span 4;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    height: 60px;
+    width: 280px;
+    padding-left: 20px; 
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: inset 2px 2px 12px rgb(229, 229, 229),
+                        2px 2px 12px rgb(255, 222, 222);
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+#equal{
+    width: 120px;
+    border-radius: 10px;
+    color: rgb(255, 85, 0);
+    box-shadow: inset 2px 2px 12px rgb(255, 255, 255),
+                        2px 2px 12px rgb(234, 234, 234);
+}
+#clear{
+    color: red;
+
+}
+#orang,#add,#subtract{
+    color: rgb(255, 102, 0);
+}
+#title{
+    color: rgb(255, 81, 0);
+    padding-left: 50px;
+}
+#description{
+    color: #ff2200;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
